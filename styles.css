@@ -1,1 +1,78 @@
 
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+  opacity: 0.9;
+}
+
+.parallaxImg1,
+.parallaxImg2,
+.parallaxImg3 {
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxImg1 {
+  background-image: url("images/image1.jpg");
+  min-height: 100%;
+}
+.parallaxImg2 {
+  background-image: url("images/image4.jpg");
+  min-height: 300px;
+}
+.parallaxImg3 {
+  background-image: url("images/image5.jpg");
+  min-height: 300px;
+}
+
+.section {
+  text-align: center;
+  padding: 30px 40px;
+  font-size: 0.7em;
+  line-height: 20px;
+  font-family: sans-serif;
+}
+
+.parallaxText {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+  font-weight: 100px;
+  text-align: center;
+  font-size: large;
+  letter-spacing: 8px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.transit {
+  background-color: transparent;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: black;
+  color: #ddd;
+}
+.parallaxText .border {
+  background-color: #111;
+  color: #fff;
+  padding: 10px;
+  font-size: large;
+}
+
+@media (max-width: 100px) {
+  .parallaxImg1,
+  .parallaxImg2,
+  .parallaxImg3 {
+    background-attachment: scroll;
+  }
+}
