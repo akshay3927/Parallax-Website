@@ -6,9 +6,9 @@ html {
   opacity: 0.9;
 }
 
-.parallaxImg1,
-.parallaxImg2,
-.parallaxImg3 {
+.parallax-img1,
+.parallax-img2,
+.parallax-img3 {
   position: relative;
   background-position: center;
   background-attachment: fixed;
@@ -16,15 +16,15 @@ html {
   background-size: cover;
 }
 
-.parallaxImg1 {
+.parallax-img1 {
   background-image: url("images/image1.jpg");
   min-height: 100%;
 }
-.parallaxImg2 {
+.parallax-img2 {
   background-image: url("images/image4.jpg");
   min-height: 300px;
 }
-.parallaxImg3 {
+.parallax-img3 {
   background-image: url("images/image5.jpg");
   min-height: 300px;
 }
@@ -37,7 +37,7 @@ html {
   font-family: sans-serif;
 }
 
-.parallaxText {
+.parallax-text {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -45,7 +45,7 @@ html {
   letter-spacing: 8px;
   font-family: sans-serif;
   text-transform: uppercase;
-  color: white;
+  color:white;
   font-size: 27px;
   font-weight: 400;
   line-height: 1.8em;
@@ -58,19 +58,19 @@ html {
   color: #666;
 }
 .section-dark {
-  background-color: black;
+  background-color:black;
   color: #ddd;
 }
-.parallaxText .border {
+.parallax-text .border {
   background-color: #111;
   color: #fff;
   padding: 30px
 }
 
 @media (max-width: 100px) {
-  .parallaxImg1,
-  .parallaxImg2,
-  .parallaxImg3 {
+  .parallax-img1,
+  .parallax-img2,
+  .parallax-img3 {
     background-attachment: scroll;
   }
 }
