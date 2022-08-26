@@ -31,8 +31,9 @@ html {
 
 .section {
   text-align: center;
-  padding: 30px 40px;
-  line-height: 20px;
+  padding: 30px 50px;
+  line-height: 30px;
+  letter-spacing : 1px;
   font-family: sans-serif;
 }
 
