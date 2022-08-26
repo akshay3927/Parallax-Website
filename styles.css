@@ -63,8 +63,7 @@ html {
 .parallaxText .border {
   background-color: #111;
   color: #fff;
-  padding: 10px;
-  font-size: large;
+  padding: 30px
 }
 
 @media (max-width: 100px) {
